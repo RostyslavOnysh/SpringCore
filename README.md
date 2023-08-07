@@ -38,9 +38,26 @@ To get started, it's recommended to follow these steps:*
 
 Clone the repository to your local machine using the following command:
 ```bash
- 
 git clone https://github.com/your-username/spring-core-repo.git
 ```
+
+1. Ensure you have JDK 11 installed and properly configured on your development environment.
+2. Verify the MySQL Connector version (8.0.33) compatibility with your MySQL database server.
+3. Check the version of the Spring Context dependency and update it to the latest version if needed.
+4. Run the Checkstyle :
+```bash
+mvn clean package
+```
+
+# Dependencies
+
+The project has the following key dependencies:
+
+* JUnit (version 3.8.1) for testing purposes.
+* MySQL Connector (version 8.0.33) for database connectivity.
+* Spring Context (version 6.0.9) for Spring Core functionality.
+
+
 Navigate to the respective directories for each topic to access the source code and documentation.
 Read through the README.md files in each directory for explanations and instructions on running the examples.
 # Contribution
