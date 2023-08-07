@@ -3,7 +3,6 @@ package org.example.service.impl;
 import org.example.model.Card;
 import org.example.service.interfaces.CommissionHandler;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 

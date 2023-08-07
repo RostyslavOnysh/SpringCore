@@ -3,7 +3,6 @@ package org.example.service.strategy;
 import org.example.model.Card;
 import org.example.service.interfaces.CommissionHandler;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
